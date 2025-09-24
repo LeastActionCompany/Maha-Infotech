@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Header from "./components/Header.jsx";
+import Header from './components/Header.jsx'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import ServicesPage from './pages/ServicesPage'
-import ContactUs from './pages/ContactUs';
-import MouseFollower from './Components/Common/MouseFollower';
-import ScrollToTop from "./Components/Common/ScrollToTop"
+import ContactUs from './pages/ContactUs'
+import MouseFollower from './components/Common/MouseFollower'
+import ScrollToTop from './components/Common/ScrollToTop'
 
 function App() {
   return (
