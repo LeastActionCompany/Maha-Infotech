@@ -198,7 +198,7 @@ const Hero = () => {
   </div>
 
   {/* Scroll indicator */}
-  <div
+  {/* <div
     className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer z-20"
     onClick={scrollToNext}
     tabIndex={0}
@@ -211,8 +211,8 @@ const Hero = () => {
         </svg>
       </div>
       <p className="text-white text-xs sm:text-sm mt-1 sm:mt-2 opacity-70 text-center">Scroll to explore</p>
-    </div>
-  </div>
+    </div> */}
+  {/* </div> */}
 </section>
 
   );
