@@ -5,8 +5,8 @@ import Home from './Pages/Home'
 import AboutUs from './Pages/AboutUs'
 import ServicesPage from './Pages/ServicesPage'
 import ContactUs from './Pages/ContactUs'
-import MouseFollower from './components/Common/MouseFollower'
-import ScrollToTop from './components/Common/ScrollToTop'
+import MouseFollower from './Components/Common/MouseFollower'
+import ScrollToTop from './Components/Common/ScrollToTop'
 
 function App() {
   return (
