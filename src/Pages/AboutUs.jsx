@@ -113,7 +113,7 @@ const AboutUs = () => {
         </div>
 
         {/* Values Section */}
-        <div className="mb-16">
+        <div className="mb-24">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Values</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -155,49 +155,41 @@ const AboutUs = () => {
         </div>
 
         {/* Team Section */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Team</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-gray-200 rounded-full w-32 h-32 mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-20 h-20 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">John Smith</h3>
-              <p className="text-royal-blue-600 mb-2">CEO & Founder</p>
-              <p className="text-gray-600">
-                With over 15 years of experience in the tech industry, John leads our company with vision and expertise.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-200 rounded-full w-32 h-32 mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-20 h-20 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Sarah Johnson</h3>
-              <p className="text-royal-blue-600 mb-2">Technical Director</p>
-              <p className="text-gray-600">
-                Sarah oversees all technical operations and ensures our solutions meet the highest standards of quality.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-gray-200 rounded-full w-32 h-32 mx-auto mb-4 flex items-center justify-center">
-                <svg className="w-20 h-20 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">Michael Chen</h3>
-              <p className="text-royal-blue-600 mb-2">Lead Developer</p>
-              <p className="text-gray-600">
-                Michael leads our development team with expertise in multiple programming languages and frameworks.
-              </p>
-            </div>
-          </div>
-        </div>
+       <div className="mb-20 mt-20">
+  <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Meet Our Founder</h2>
+  
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 max-w-4xl mx-auto">
+    
+    {/* Founder Image */}
+    <div className="flex-shrink-0">
+      <div className="bg-gray-200 rounded-full w-40 h-40 flex items-center justify-center mx-auto md:mx-0">
+        <svg
+          className="w-24 h-24 text-gray-400"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+
+    {/* Founder Info */}
+    <div className="text-center md:text-left">
+      <h3 className="text-2xl font-semibold text-gray-900 mb-2">Mahalakshmi</h3>
+      <p className="text-royal-blue-600 mb-3">CEO & Founder</p>
+      <p className="text-gray-600 leading-relaxed">
+        Mahalakshmi is the driving force behind our vision, bringing passion and dedication 
+        to lead the company toward innovation and growth.
+      </p>
+    </div>
+
+  </div>
+</div>
+
 
         {/* CTA Section */}
         <div className="bg-royal-blue-700 rounded-lg p-8 text-center text-white">
